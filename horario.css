@@ -53,3 +53,44 @@
   width: 20%;
   
 }
+
+@media (max-width: 600px) {
+  /* Aumenta o título e reduz margem para caber melhor */
+  .horario-titulo {
+    font-size: 2.5rem;      /* de 70px para ~40px */
+    line-height: 1.2;
+    margin-bottom: 1.5rem;  /* de 120px para ~24px */
+  }
+
+  /* Empilha as boxes e faz cada uma ocupar 100% do container */
+  .horario-conteudo {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    padding: 0 1rem;        /* padding lateral para respirarem */
+    background-color: #E3BA9E;
+  }
+
+  .horario-conteudo .box {
+    width: 100%;
+    max-width: none;        /* remove limite fixo */
+    margin: 0 0 1rem;       /* espaço de 16px entre cada box */
+    padding: 2rem 1rem;     /* ajusta espaço interno */
+    box-sizing: border-box; /* garante que padding não ultrapasse 100% */
+  }
+
+  /* Ajustes internos da box */
+  .horario-conteudo .box h3 {
+    font-size: 1.25rem;     /* de 28px para ~20px */
+    margin-bottom: 0.75rem;
+  }
+  .horario-conteudo .box img {
+    margin: 1rem auto;
+    width: 40px;            /* ícone menor para caber melhor */
+  }
+  .horario-conteudo .box p {
+    font-size: 0.9rem;      /* de 25px para ~14px */
+    line-height: 1.4;
+    margin-top: 1rem;
+  }
+}
