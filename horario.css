@@ -54,24 +54,24 @@
   
 }
 
-/* Ajustes para corrigir o gap no mobile */
+
 @media (max-width: 600px) {
-  /* Seletor do container: empilha e define espaçamento uniforme */
+  
   .horario-conteudo {
     display: flex;
     flex-direction: column;
-    /* row-gap controla o espaço ENTRE as caixas */
-    row-gap: 16px;        /* diminua ou aumente conforme preferir */
+    
+    row-gap: 16px;       
     padding: 0 1rem;
   }
 
-  /* Cada box ocupa 100%, sem altura fixa, para crescer só até o conteúdo */
+ 
   .horario-conteudo .box {
     width: 100%;
     max-width: none;
-    height: auto !important;    /* sobrescreve qualquer height definido antes */
-    margin: 0;                  /* remove margens extras */
-    padding: 1.5rem 1rem;       /* ajusta o padding interno */
+    height: auto !important;   
+    margin: 0;                  
+    padding: 1.5rem 1rem;       
     box-sizing: border-box;
   }
 

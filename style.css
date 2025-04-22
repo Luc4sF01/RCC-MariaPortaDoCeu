@@ -34,9 +34,9 @@ img {
 }
 
 ul {
-  margin: 0px; /* Remove a margem padrão das listas */
-  padding: 0px; /* Remove o padding padrão das listas */
-  list-style: none; /* Remove os marcadores da lista */
+  margin: 0px;
+  padding: 0px; 
+  list-style: none; 
 }
 
 
@@ -84,7 +84,7 @@ ul {
   }
 
   .menu li {
-    margin-bottom: 10px; /* Evita que fiquem grudados verticalmente */
+    margin-bottom: 10px; 
   }
 
   .menu li a {
