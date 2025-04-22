@@ -1,0 +1,57 @@
+.intro{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  margin-top: 100px;
+  gap: 40px;
+  
+}
+
+.intro-bg{
+  box-shadow: inset 0 80px #E3BA9E ,inset 0 -100px #5B1D20
+}
+
+
+.texto-intro h1{
+  font-size: 64px;
+  color: #5B1D20;
+  font-weight: 600;
+  line-height: 72px;
+  margin-bottom: 135px;
+}
+
+.texto-intro p{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 500;
+  line-height: 20px;
+  font-size: 24px;
+  color: #966257;
+  padding-left: 2px;
+  margin-bottom: 4px;
+}
+
+.texto-intro span{
+  color:#B77C54;
+}
+
+.botao {
+  padding: 13px 30px;
+  background: #5B1D20;
+  display: inline-block;
+  border-radius: 5px;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1);
+  text-transform: uppercase;
+  color: #E3BA9E;
+  font-size: 18px;
+  line-height: 1.33;
+  font-family: "Poppins";
+  font-weight: 600;
+  max-width: max-content;
+  cursor: pointer;
+}
+
+.botao:hover {
+  background: #B77C54;
+  color: #5B1D20;
+  transition: all 0.3s ease-in-out;
+}

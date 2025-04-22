@@ -1,0 +1,55 @@
+
+.horario-titulo{
+  padding-top:70px;
+  font-size: 70px;
+  line-height: 72px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  color: #5B1D20;
+  margin-bottom: 120px;
+  text-align: center;
+}
+
+.horario-conteudo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 400px;
+  background-color: #E3BA9E;
+}
+
+.horario-conteudo div {
+  height: 420px;
+  width: 355px;
+  background-color: #5B1D20;
+  margin: 20px;
+  text-align: center;
+  padding: 60px;
+}
+
+.horario-conteudo div h3 {
+  font-size: 28px;
+  line-height: 32px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  color: #E3BA9E;
+  margin-bottom: 20px;
+}
+
+.horario-conteudo div p {
+  font-size: 25px;
+  line-height: 28px;
+  font-family: 'Poppins', sans-serif;
+  color: #E3BA9E;
+  margin-top: 60px;
+}
+
+.horario-conteudo div img {
+  margin-top: 80px;
+  display: block;
+ align-self: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+  
+}
