@@ -33,6 +33,7 @@
   line-height: 45px;
   font-family: 'Poppins', sans-serif;
   color: #E3BA9E;
+
 }
 
 .sobre-texto span {
@@ -42,8 +43,6 @@
 .sobre-imagem img {
   width: 100%;
   max-width: 500px;
-  display: block;
-  margin: 0 auto;
 }
 
 @media (max-width: 800px) {
