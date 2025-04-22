@@ -48,6 +48,7 @@
   font-weight: 600;
   max-width: max-content;
   cursor: pointer;
+  text-decoration: none;
 }
 
 .botao:hover {
@@ -115,6 +116,7 @@
     }
     .botao {
       margin: 0 auto !important;
+  
     }
     .imagem-intro img {
       width: 100%;
