@@ -1,4 +1,4 @@
-/* ===== estilo da seção Rede Social ===== */
+
 .rede-social {
   background-color: #5B1D20;
   color: #E3BA9E;
@@ -23,9 +23,15 @@
 /* container dos posts */
 .rede-posts {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 24px;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 25px;
   justify-items: center;
+  box-sizing: border-box;
+  width: 1200px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* quando o Instagram renderiza, ele injeta o <iframe> dentro do blockquote */
