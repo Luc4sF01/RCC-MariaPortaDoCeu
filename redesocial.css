@@ -1,0 +1,45 @@
+/* ===== estilo da seção Rede Social ===== */
+.rede-social {
+  background-color: #5B1D20;
+  color: #E3BA9E;
+  padding: 80px 16px;
+}
+
+.rede-titulo {
+  font-family: "Poppins", sans-serif;
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.rede-subtitulo {
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  text-align: center;
+  margin-bottom: 32px;
+  text-transform: capitalize;
+}
+
+/* container dos posts */
+.rede-posts {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  justify-items: center;
+}
+
+/* quando o Instagram renderiza, ele injeta o <iframe> dentro do blockquote */
+.rede-posts iframe {
+  width: 100% !important;
+  max-width: 400px !important;
+  border: none !important;
+  overflow: hidden !important;
+}
+
+/* ===== responsivo ===== */
+@media (max-width: 768px) {
+  .rede-posts {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+}
