@@ -20,21 +20,19 @@
   text-transform: capitalize;
 }
 
-/* container dos posts */
+
 .rede-posts {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 25px;
-  justify-items: center;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
   box-sizing: border-box;
-  width: 1200px;
-  padding-left: 20px;
-  padding-right: 20px;
-  margin-left: auto;
-  margin-right: auto;
 }
 
-/* quando o Instagram renderiza, ele injeta o <iframe> dentro do blockquote */
+
 .rede-posts iframe {
   width: 100% !important;
   max-width: 400px !important;
@@ -42,7 +40,7 @@
   overflow: hidden !important;
 }
 
-/* ===== responsivo ===== */
+
 @media (max-width: 768px) {
   .rede-posts {
     grid-template-columns: 1fr;

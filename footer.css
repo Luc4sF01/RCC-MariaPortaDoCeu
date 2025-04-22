@@ -50,19 +50,28 @@
 }
 
 /* Responsivo */
-@media (max-width: 600px) {
+@media (max-width: 768px) {
   .footer-content {
-    flex-direction: column;
-    align-items: center;
+    grid-template-columns: 1fr;  /* uma coluna só */
     text-align: center;
   }
-  .footer-instagram,
-  .footer-endereco,
+
   .footer-horarios {
-    flex: unset;
-    width: 100%;
-    max-width: 320px;
+    padding-left: 0;
+    text-align: center;
   }
+}
+
+/* ===== Ajustes finais até 480px ===== */
+@media (max-width: 480px) {
+  .site-footer {
+    padding: 40px 12px;
+  }
+
+  .footer-content {
+    gap: 16px;
+  }
+
   .footer-copy {
     padding-top: 12px;
   }
